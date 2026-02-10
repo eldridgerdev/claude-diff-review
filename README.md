@@ -108,6 +108,12 @@ Export these in your shell profile (e.g. `.bashrc`, `.zshrc`,
 4. Your decision is communicated back to Claude Code via the
    hook's exit code and stderr
 
+## Troubleshooting
+
+If the explain feature shows a blank screen, ensure the `claude`
+CLI is installed and in your PATH, or set `CLAUDE_CMD` to its
+full path.
+
 ## License
 
 MIT

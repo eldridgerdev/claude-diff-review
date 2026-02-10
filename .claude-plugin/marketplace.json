@@ -1,0 +1,23 @@
+{
+  "name": "claude_vibeless",
+  "owner": {
+    "name": "eldridger"
+  },
+  "metadata": {
+    "description": "Claude Code diff review plugin",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "diff-review",
+      "source": "./plugins/diff-review",
+      "description": "Review Claude Code file changes in a vimdiff popup before they're applied",
+      "version": "0.1.0",
+      "author": {
+        "name": "eldridger"
+      },
+      "category": "code-review",
+      "keywords": ["review", "diff", "vimdiff", "safety", "hooks"]
+    }
+  ]
+}
