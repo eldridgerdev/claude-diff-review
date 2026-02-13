@@ -8,6 +8,27 @@ showing the original file alongside the proposed changes. You can
 approve, reject with feedback, ask for an AI explanation, or
 cancel — all without leaving your terminal.
 
+## Why
+
+If I am working on a project that is well established and I let an
+AI agent go wild without checking it's work I often spend more time
+reviewing and fixing bugs and bad code. Even if I try to watch the
+agent and accept every diff manually, my eyes glaze over looking at
+Claude Code's diff
+
+### ugh
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/71c2b959-98a2-47e4-867d-0f3657b590ff" />
+
+## Enter Claude-Diff-Review
+Now I can look at the changes side by side in my own NVIM environment.
+This lets me use treesitter for syntax highlighting, jumping, and more.
+I can easilly use "redo" to tell the AI to do something different.
+If I still have no idea what is going on, I can even have the AI
+explain it to me
+
+### much better
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/e4728f01-e607-4e3d-922b-526b3e9bc5f5" />
+
 ## Features
 
 - **Side-by-side vimdiff** with treesitter syntax highlighting
