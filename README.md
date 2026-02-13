@@ -120,6 +120,9 @@ All configuration is via environment variables:
 Export these in your shell profile (e.g. `.bashrc`, `.zshrc`,
 `config.fish`) to customize behavior.
 
+The plugin uses `nvim --clean` so no user Neovim configuration
+is required or loaded.
+
 ## How It Works
 
 1. Claude Code fires a `PreToolUse` hook before each Edit/Write

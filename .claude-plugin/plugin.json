@@ -13,6 +13,5 @@
     "vimdiff",
     "safety",
     "hooks"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
